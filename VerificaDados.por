@@ -1,28 +1,35 @@
 programa {
+	inclua biblioteca Matematica --> mat
 	funcao inicio() {
+		
+		inteiro rg, cpf
+		cadeia nome, email
 
-		real valor_a, valor_b, soma 
+		escreva("Verificação de preenchimento de dados\n")
 
-		escreva("Soma de dois valores\n")
-
-		escreva("Informe o valor de A: ")
-		leia(valor_a)
-
-		escreva("Informe o valor de B: ")
-		leia(valor_b)
-
-		soma = valor_a + valor_b
-
-		escreva("A soma dos valores é: ", soma)	
+		escreva("Informe o seu nome (completo): ")
+		leia(nome)
+		
+		escreva("Seu e-mail: ")
+		leia(email)
+		
+		escreva("Informe o seu RG (somente números): ")
+		leia(rg)
+		
+		escreva("Informe o seu CPF (somente números): ")
+		leia(cpf)
+	
 	}
 }
+
+
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 103; 
+ * @POSICAO-CURSOR = 404; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
