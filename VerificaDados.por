@@ -1,9 +1,7 @@
 programa {
-	inclua biblioteca Matematica --> mat
 	funcao inicio() {
 		
-		inteiro rg, cpf
-		cadeia nome, email
+		cadeia nome, email, rg, cpf
 
 		escreva("Verificação de preenchimento de dados\n")
 
@@ -18,7 +16,12 @@ programa {
 		
 		escreva("Informe o seu CPF (somente números): ")
 		leia(cpf)
-	
+
+		se (nome == "" ou email == "" ou rg == "" ou cpf == "") {
+			escreva("Preencha todos os dados!")
+		} senao {
+			escreva("Dados preenchidos!")
+		}
 	}
 }
 
@@ -29,7 +32,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 404; 
+ * @POSICAO-CURSOR = 500; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

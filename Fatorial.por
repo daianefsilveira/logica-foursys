@@ -1,23 +1,25 @@
-programa{
-	funcao inicio(){
-		inteiro valor
-
-		escreva("Tabuada\n")
+programa {
+	funcao inicio() {
 		
-      	escreva("Digite um valor de 1 a 10: ")
-      	leia(valor)
-
-    		para(inteiro i = 0; i <= 10; i++){
-      		escreva(valor, " * ", i, " = ", valor * i,"\n")
-    		}
-  	}
+		inteiro numero, atual = 1, fatorial = 1
+		
+		escreva("Digite um numero para calcular o fatorial: ")
+		leia(numero)
+		
+		enquanto (atual <= numero) {
+			fatorial = fatorial * atual 
+			atual = atual + 1
+		}
+		escreva("O fatorial de ", numero, " é: ", fatorial, "\n")
+	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 245; 
+ * @POSICAO-CURSOR = 300; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
