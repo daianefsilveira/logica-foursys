@@ -16,17 +16,17 @@ programa {
 			peso_ideal = (72.7 * altura) - 58 
 			escreva("O seu peso ideal é: ", peso_ideal)
 			} senao {
-      			peso_ideal = (62.1 * altura) - 44.7
-      			escreva("O seu peso ideal é: ", peso_ideal)
+				peso_ideal = (62.1 * altura) - 44.7
+				escreva("O seu peso ideal é: ", peso_ideal)
+				}
+			}
 		}
-	}
-}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 291; 
+ * @POSICAO-CURSOR = 449; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
