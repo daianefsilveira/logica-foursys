@@ -15,7 +15,6 @@ programa {
 		leia(valor_c)
 
 		media = (valor_a + valor_b + valor_c) / 3
-
 		
 		escreva("A média dos valores é: ", media)	
 	}
@@ -25,7 +24,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 121; 
+ * @POSICAO-CURSOR = 305; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

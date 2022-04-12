@@ -11,13 +11,13 @@ programa {
 		
 		escreva("Informe o seu sexo (ex: F ou M): ")
 		leia(sexo)
-				
-      	se (sexo == "M") {
-      		peso_ideal = (72.7 * altura) - 58
+		
+		se (sexo == "M") {
+			peso_ideal = (72.7 * altura) - 58
       		escreva("O seu peso ideal é: ", peso_ideal)
-      	} senao {
-      		peso_ideal = (62.1 * altura) - 44.7
-         		escreva("O seu peso ideal é: ", peso_ideal)
+      		} senao {
+      			peso_ideal = (62.1 * altura) - 44.7
+      			escreva("O seu peso ideal é: ", peso_ideal)
 		}
 	}
 }
@@ -26,7 +26,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 457; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

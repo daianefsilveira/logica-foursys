@@ -13,12 +13,12 @@ programa {
 		leia(altura)
 
 		imc = peso / (altura * altura)
-
+		
 		se (imc > 18.5) 
 			se (imc < 25) {
-      		escreva("Você está dentro do padrão considerado normal. O seu IMC é: ", mat.arredondar(imc, 2))
-      	} senao {
-         		escreva("Você está fora do padrão considerado normal. O seu IMC é: ", mat.arredondar(imc, 2))
+				escreva("Você está dentro do padrão considerado normal. O seu IMC é: ", mat.arredondar(imc, 2))
+				} senao {
+					escreva("Você está fora do padrão considerado normal. O seu IMC é: ", mat.arredondar(imc, 2))
 		}
 	}
 }
@@ -27,7 +27,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 489; 
+ * @POSICAO-CURSOR = 432; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

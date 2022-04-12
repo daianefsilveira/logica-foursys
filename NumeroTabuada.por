@@ -9,8 +9,8 @@ programa {
 	   	leia(numero)
 	   
 	  	para(i = 0; i <= 10; i++) {
-	       resultado = numero * i
-            escreva(numero, " * ", i, " = ", resultado, "\n")
+	  		resultado = numero * i
+	  		escreva(numero, " * ", i, " = ", resultado, "\n")
 	   	}
 	}
 }
@@ -23,7 +23,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 218; 
+ * @POSICAO-CURSOR = 253; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

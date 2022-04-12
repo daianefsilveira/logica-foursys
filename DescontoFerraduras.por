@@ -13,9 +13,9 @@ programa {
 		
 		se(valor_final > 100){	
 			valor_final = valor_final - (valor_final * desconto)		
-			escreva("Valor com desconto de 10% é R$ ", valor_final)			
-		}senao{
-			escreva("Valor sem desconto é R$ ", valor_final)
+			escreva("Valor com desconto de 10% é R$ ", valor_final)
+			}senao{
+				escreva("Valor sem desconto é R$ ", valor_final)
 		}	
 	}
 }
@@ -27,7 +27,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 150; 
+ * @POSICAO-CURSOR = 428; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
