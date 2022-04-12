@@ -15,22 +15,21 @@ programa {
 		escolha(animal) {
 			caso 1:
 				escreva("O nome do animal em inglês é: Cat")
-		        	pare
+				pare
 		    	caso 2:
-		        	escreva("O nome do animal em inglês é: Dog")
-		        	pare
+				escreva("O nome do animal em inglês é: Dog")
+				pare
 		   	caso 3:
-		        	escreva("O nome do animal em inglês é: Horse")
-		        	pare
+				escreva("O nome do animal em inglês é: Horse")
+				pare
 			caso 4:
-	            	escreva("O nome do animal em inglês é: Cow")
-    	        	  	pare
+				escreva("O nome do animal em inglês é: Cow")
+				pare
 	        	caso 5:
-    	            	escreva("O nome do animal em inglês é: Bear")
+				escreva("O nome do animal em inglês é: Bear")
     	            	pare
     	    	   	caso contrario:
     	            	escreva("Erro! Escolha um animal de 1 a 5")
-    	            	pare
 		}
 	}
 }
@@ -39,7 +38,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 843; 
+ * @POSICAO-CURSOR = 592; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
